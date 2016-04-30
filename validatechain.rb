@@ -35,6 +35,6 @@ blockchain.each do |block|
 end
 
 if verified then
-  puts "Chain verified".green
-else puts "Chain failed".red
+  puts "Chain verified".green.on_light_green
+else puts "Chain failed".red.on_black.bold
 end
