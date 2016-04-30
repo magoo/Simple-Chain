@@ -5,7 +5,7 @@ This is an extremely simple blockchain implementation. It is an explanation as c
 ##Block Protocol
 
 Each block requires the bare minimum to create a blockchain. The "difficulty" is static. The only frill is a message that is added to each block.
-
+<pre>
 ┌───────────────────────────┐      ┌───────────────────────────┐
 │        Block Hash         │◀──┐  │        Block Hash         │
 └───────────────────────────┘   │  └───────────────────────────┘
@@ -27,7 +27,7 @@ Each block requires the bare minimum to create a blockchain. The "difficulty" is
 ││                         ││      ││                         ││
 │└─────────────────────────┘│      │└─────────────────────────┘│
 └───────────────────────────┘      └───────────────────────────┘
-
+</pre>
 ##Usage
 Create a blockchain with `buildchain.rb` on the console. Then validate it with `validatechain.rb`. Neither script takes arguments. 
 
